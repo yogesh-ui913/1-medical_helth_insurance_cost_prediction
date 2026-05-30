@@ -8,6 +8,9 @@ from xgboost import XGBRegressor
 import warnings
 warnings.filterwarnings('ignore')
 
+# 1. Load the dataset (from cell _uTLaYVUlTWS)
+df = pd.read_excel('Medical_Insurance_cost _prediction.xlsm')
+
 # Set page config
 st.set_page_config(page_title="Medical Insurance Cost Prediction", layout="wide")
 
